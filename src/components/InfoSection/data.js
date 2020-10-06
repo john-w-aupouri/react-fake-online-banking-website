@@ -10,7 +10,7 @@ export const homeObjOne = {
   buttonLabel: 'Get started',
   imgStart: true,
   img: require('../../images/svg-1.svg'),
-  alt: 'Investing',
+  alt: 'Credit card',
   dark: true,
   primary: true,
   darkText: false
@@ -21,10 +21,10 @@ export const homeObjTwo = {
   lightBg: true,
   lightText: false,
   lightTextDesc: false,
-  topLine: 'Premium Bank',
-  headLine: 'Unlimited Transactions with zero fees',
+  topLine: 'Unlimited Access',
+  headLine: 'Login to your account at any time',
   description: 
-    'Get Unlimited access to our exclusive app that allows you to send unlimited transactions without getting charged any fees',
+    'We have you covered no matter where you are located. All you need is an internet connect and a phone or computer',
   buttonLabel: 'Learn More',
   imgStart: false,
   img: require('../../images/svg-2.svg'),
