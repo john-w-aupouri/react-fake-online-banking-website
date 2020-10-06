@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from 'react'
 import { FaBars } from 'react-icons/fa'
 import { animateScroll as scroll } from 'react-scroll'
+
 import { 
   Nav, 
   NavbarContainer, 
@@ -36,7 +37,7 @@ const Navbar = ({ toggle }) => {
     <>
       <Nav scrollNav={scrollNav}>
         <NavbarContainer>
-          <NavLogo to='/' onClick={toggleHome}>React</NavLogo>
+          <NavLogo to='/' onClick={toggleHome}>$$$</NavLogo>
           <MobileIcon onClick={toggle}>
             <FaBars /> 
           </MobileIcon>

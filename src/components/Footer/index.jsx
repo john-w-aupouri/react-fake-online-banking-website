@@ -1,5 +1,7 @@
 import React from 'react'
 import {IconContext} from 'react-icons/lib'
+import { animateScroll as scroll } from 'react-scroll'
+
 import { FaFacebook, FaInstagram, FaTwitter, FaLinkedin, FaYoutube } from 'react-icons/fa'
 import {
   FooterContainer,
@@ -18,6 +20,9 @@ import {
 } from './FooterElements'
 
 const Footer = () => {
+  const toggleHome = () => {
+    scroll.scrollToTop()
+  }
   return (
     <IconContext.Provider value={{ color: '#fff'}}>
       <FooterContainer>
@@ -62,8 +67,8 @@ const Footer = () => {
           </FooterLinksContainer>
           <SocialMedia>
             <SocialMediaWrap>
-              <SocialLogo to='/'>
-
+              <SocialLogo to='/' onClick={toggleHome}>
+                $$$
               </SocialLogo>
               <WebsiteRights> ©{new Date().getFullYear()} All rights reserved.</WebsiteRights>
               <SocialIcons>
